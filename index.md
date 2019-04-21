@@ -10,7 +10,13 @@ Categorize the data into Beginner, Intermediate, Advanced. From there users can 
 Here we will have three visuals to reflect these categories.
 Users will be able to:
   
-  Pick a data set:
+<details>
+  <summary>Choose a Data Set</summary>
+  <br>
+  Data Set Name 1
+  <br>
+  Data Set Name 1
+<details>
   
   Report:
   
