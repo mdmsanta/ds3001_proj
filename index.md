@@ -4,7 +4,10 @@ For this project, we chose to use the Dataset of [Kaggle Datasets](https://www.k
 
 ## How to Pick a Quality Data Set
 
-I am testing this 
+| Variable      | Value Assigned|
+| ------------- | ------------- |
+| File Type     | Easier Type, more points (i.e. CSV = +3 points  |
+| Content Cell  | Content Cell  | 
 
 ### Categorizing the Data
 
