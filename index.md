@@ -6,8 +6,16 @@ For this project, we chose to use the Dataset of [Kaggle Datasets](https://www.k
 
 | Variable      | Value Assigned|
 | ------------- | ------------- |
-| File Type     | Easier Type, more points (i.e. CSV = +3 points  |
-| Content Cell  | Content Cell  | 
+| File Type     | Easier Type, more points (i.e. CSV = +3 points)  |
+| Dataset Size  | Bigger size gives more points (0-3 points)  | 
+| is Featured | Yes= +1|
+|is Super Featured | Yes = +1|
+|Competition Count| If the set has been in a competition = +1|
+|Description| If the set has a description = +1|
+|Category| If the set has a category = +1|
+|Vote Button| More upvotes gives more points (0-3 points)|
+|License Type| Free license  = +1 |
+
 
 ### Categorizing the Data
 
