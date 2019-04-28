@@ -2,6 +2,9 @@
 
 For this project, we chose to use the Dataset of [Kaggle Datasets](https://www.kaggle.com/morriswongch/kaggle-datasets). Kaggle is a valuable tool for data scientists, however it can be difficult to navigate especially for beginners. By categorizing the data sets the goal is to help students, hobbyists, and researchers more efficiently find data sets useful to them.
 
+## How to Pick a Quality Data Set
+
+I am testing this 
 
 ### Categorizing the Data
 
