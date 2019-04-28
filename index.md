@@ -21,7 +21,8 @@ The following table shows the different attributes used to give points to a data
 |License Type| Free license  = +1 |
 
 From these attributes, different point categories were created to determine the different "areas" from where the points were coming. 
-| Category | Meaning|Attributes|
+| Category | Meaning | Attributes|
+| ------------- | ------------- |------------- |
 | Popularity | The usage and interaction with the dataset on Kaggle | isFeatured, isSuperFeatured, Ratio, voteButton|
 |Quality|The quality of the dataset itself | File Type, Dataset Size, Competition Count|
 |Information| The avalible information about the dataset| Description, Category, License Type|
