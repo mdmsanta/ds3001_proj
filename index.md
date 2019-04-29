@@ -40,6 +40,8 @@ The only true clusters, true being that they were not stripes as we will see lat
 
 ![Competition Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/competition%20count.png)
 
+<img src="https://github.com/mdmsanta/ds3001_project/blob/master/competition%20count.png">
+
 ### 2. Vertical Striped Clusters
 As seen in these graphs, the clusters are vertical stripes of the data and tend to only be based on x-values.
 
