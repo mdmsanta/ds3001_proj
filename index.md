@@ -38,9 +38,11 @@ After determining these quality points, we questioned what kind of clusters we c
 ### 1. "True" Clusters
 The only true clusters, true being that they were not stripes as we will see later, was found in the categories clustering. The categories were preprossed to be integer values. 
 
-![Competition Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/competition%20count.png)
+![Competition Clustering](mdmsanta/ds3001_project/master/competition%20count.png)
 
-<img src="https://github.com/mdmsanta/ds3001_project/blob/master/competition%20count.png">
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/competition%20count.png">
+
+
 
 ### 2. Vertical Striped Clusters
 As seen in these graphs, the clusters are vertical stripes of the data and tend to only be based on x-values.
