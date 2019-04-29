@@ -40,7 +40,7 @@ The only true clusters, true being that they were not stripes as we will see lat
 
 ![Competition Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/competition%20count.png)
 
-### 2. Vertical Striped Cluster
+### 2. Vertical Striped Clusters
 As seen in these graphs, the clusters are vertical stripes of the data and tend to only be based on x-values.
 
 ![Categories Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/categories.png)
@@ -60,9 +60,11 @@ Lastly, we saw horizontal stripped clusters. This group of clustering algorithms
 ![Ratio Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/Kmeans-ratio.png)
 
 The following graph shows the dataset size again, but with a normalization to counter act the outliers, of which we still have some. 
+
 ![Normalized Data Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size-N.png)
 
-
+## Decision Trees
+After making these different categories, we wanted to then determine the most important or most contributing attributes in determining the category a dataset will fall. To do this, we used a decision tree. (Note: in this tree we left out categories and description since when processed for the tree, it creates a massive amount values to add and unreasonable to add to the tree)
 
 
 
