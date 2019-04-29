@@ -37,6 +37,7 @@ After determining these quality points, we questioned what kind of clusters we c
 
 ### 1. Vertical Striped Cluster
 
+![Categories Clustering](ds3001_project/categories.png)
 categories
 votes
 dataset size (1&2)
