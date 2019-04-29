@@ -38,10 +38,12 @@ After determining these quality points, we questioned what kind of clusters we c
 ### 1. Vertical Striped Cluster
 
 ![Categories Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/categories.png)
-categories
-votes
-dataset size (1&2)
-categories
+
+![Votes Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/votes.png)
+
+![Dataset Size (1) Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size1.png)
+
+![Dataset Size (2) Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size2.png)
 
 ### 2. Horiztonal Striped Clusters
 ratio
