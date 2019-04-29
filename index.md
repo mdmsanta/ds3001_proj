@@ -64,10 +64,17 @@ The following graph shows the dataset size again, but with a normalization to co
 ![Normalized Data Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size-N.png)
 
 ## Decision Trees
-After making these different categories, we wanted to then determine the most important or most contributing attributes in determining the category a dataset will fall. To do this, we used a decision tree. (Note: in this tree we left out categories and description since when processed for the tree, it creates a massive amount values to add and unreasonable to add to the tree)
+After making these different categories, we wanted to then determine the most important or most contributing attributes in determining the category a dataset will fall. To do this, we used a decision tree. (Note: in this tree we left out categories and description since when processed for the tree, it creates a massive amount values to add and unreasonable to add to the tree). The full tree is shown below. 
 
+![Full Tree](https://github.com/mdmsanta/ds3001_project/blob/master/TREEEEEEEE.PNG)
 
+Since this a huge tree, lets restrict the tree to only three splits:
 
+![Final Tree](https://github.com/mdmsanta/ds3001_project/blob/master/finaltree.png)
+
+(Note: For file type, if CSV, file type = 0, if not file type > 0.5)
+
+In these first few splits, we can see that the ratio value, vote button, and file type are the most contributing attributes to classify the datasets. From this we can recommend users to focus on not only their scores, but having a hire ratio of downloads to views, up votes by users, and the type of file of the data set. 
 
 
 
