@@ -81,4 +81,34 @@ In these first few splits, we can see that the ratio value, vote button, and fil
 
 
 
-
+<<engine='python', engine.path='python3'>>=
+# python code
+@
+def print_radar(val):
+    %matplotlib inline
+    import pandas as pd
+    import seaborn as sns
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    data= pd.read_csv("classification.csv")
+    
+    N = 3
+    labels=np.array(['Populariy', 'Information', 'Quality'])
+    stats=data.loc[val,labels].values
+    
+    angles=np.linspace(0, 2*np.pi, len(labels), endpoint=False)
+    # close the plot
+    stats=np.concatenate((stats,[stats[0]]))
+    angles=np.concatenate((angles,[angles[0]]))
+    
+    #plotting details
+    fig = plt.figure()
+    ax = fig.add_subplot(111, polar=True)
+    ax.plot(angles, stats, 'o-', linewidth=2)
+    ax.fill(angles, stats, alpha=0.25)
+    ax.set_thetagrids(angles * 180/np.pi, labels)
+    title = data.loc[val,"Title"] + ': dataset has quality score of ' +str(data.loc[val,"Total"])
+    ax.set_title(title)
+    #ax.("hello")
+    ax.grid(True)
