@@ -80,35 +80,7 @@ Since this a huge tree, lets restrict the tree to only three splits:
 In these first few splits, we can see that the ratio value, vote button, and file type are the most contributing attributes to classify the datasets. From this we can recommend users to focus on not only their scores, but having a higher ratio of downloads to views, up votes by users, and the type of file of the data set. 
 
 
+## Python Code to Get Quality Points 
+In [this python file](https://github.com/mdmsanta/ds3001_project/blob/master/function%20for%20displaying%20qualities.ipynb) you can discover and graph the quality points of different dataset. The graph given is a radar graph showing each of the categories. 
 
-<<engine='python', engine.path='python3'>>=
-# python code
-@
-def print_radar(val):
-    %matplotlib inline
-    import pandas as pd
-    import seaborn as sns
-    import numpy as np
-    import matplotlib.pyplot as plt
-    
-    data= pd.read_csv("classification.csv")
-    
-    N = 3
-    labels=np.array(['Populariy', 'Information', 'Quality'])
-    stats=data.loc[val,labels].values
-    
-    angles=np.linspace(0, 2*np.pi, len(labels), endpoint=False)
-    # close the plot
-    stats=np.concatenate((stats,[stats[0]]))
-    angles=np.concatenate((angles,[angles[0]]))
-    
-    #plotting details
-    fig = plt.figure()
-    ax = fig.add_subplot(111, polar=True)
-    ax.plot(angles, stats, 'o-', linewidth=2)
-    ax.fill(angles, stats, alpha=0.25)
-    ax.set_thetagrids(angles * 180/np.pi, labels)
-    title = data.loc[val,"Title"] + ': dataset has quality score of ' +str(data.loc[val,"Total"])
-    ax.set_title(title)
-    #ax.("hello")
-    ax.grid(True)
+
