@@ -32,11 +32,19 @@ In total a dataset can get 18 quality points, 7 total in popularity, 8 in qualit
 
 Users can look into their datasets quality points here. 
 
-## Determining Groups of Datasets
+## Determining Clusters of Dataset Types
+After determining these quality points, we questioned what kind of clusters we could find between the dataset's attributes and their total number of points. Out of all of the clustering there were two main types of outcomes of clustering.
 
+### 1. Vertical Striped Cluster
 
+categories
+votes
+dataset size (1&2)
+categories
 
-
+### 2. Horiztonal Striped Clusters
+ratio
+normalized dataset size
 
 
 
