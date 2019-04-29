@@ -28,24 +28,22 @@ From these attributes, different point categories were created to determine the 
 |Quality|The quality of the dataset itself | File Type, Dataset Size, Competition Count|
 |Information| The avalible information about the dataset| Description, Category, License Type|
 
+In total a dataset can get 18 quality points, 7 total in popularity, 8 in quality, and 3 in information. Using the total points of a dataset of interest, a user can determine whether or not it fits their needs. 
+
+Users can look into their datasets quality points here. 
+
+## Determining Groups of Datasets
 
 
-### Categorizing the Data
 
-Categorize the data into Beginner, Intermediate, Advanced. From there users can find data sets appropriate for their experience level. 
 
-Here we will have three visuals to reflect these categories.
-Users will be able to:
-  
-<details>
-  <summary>Choose a Data Set</summary>
-  <br>
-  Data Set Name 1
-  <br>
-  Data Set Name 1
-<details>
-  
-  Report:
-  
-  Visualizations here based on choices made.
+
+
+
+
+
+
+
+
+
 
