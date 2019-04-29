@@ -8,17 +8,17 @@ Through the project, we chose to give each dataset a quality score, a point valu
 ## Assigning Point Values
 The following table shows the different attributes used to give points to a dataset with their corresponding point allocation. 
 
-| Variable      | Value Assigned|
-| ------------- | ------------- |
-| File Type     | Easier Type, more points (i.e. CSV = +3 points)  |
-| Dataset Size  | Bigger size gives more points (0-3 points)  | 
-| is Featured | Yes= +1|
-|is Super Featured | Yes = +1|
-|Competition Count| If the set has been in a competition = +1|
-|Description| If the set has a description = +1|
-|Category| If the set has a category = +1|
-|Vote Button| More upvotes gives more points (0-3 points)|
-|License Type| Free license  = +1 |
+| Variable      | Description | Value Assigned|
+| ------------- | ------------- | ------------- |
+| File Type     | The type of downloadable file |Easier Type, more points (i.e. CSV = +3 points)  |
+| Dataset Size  | The size of the dataset | Bigger size gives more points (0-3 points)  | 
+| is Featured | Is the dataset featured| Yes= +1|
+|is Super Featured | Has the dataset been featured for a long period of time| Yes = +1|
+|Competition Count|The number of competitions the set has been in| If the set has been in a competition = +1|
+|Description| Description of the dataset values and origin| If the set has a description = +1|
+|Category| Category classification of the dataset| If the set has a category = +1|
+|Vote Button|The number of "upvotes" by users| More upvotes gives more points (0-3 points)|
+|License Type| The type of usage license | Free license  = +1 |
 
 From these attributes, different point categories were created to determine the different "areas" from where the points were coming. 
 
