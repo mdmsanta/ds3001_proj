@@ -38,8 +38,6 @@ After determining these quality points, we questioned what kind of clusters we c
 ### 1. "True" Clusters
 The only true clusters, true being that they were not stripes as we will see later, was found in the categories clustering. The categories were preprossed to be integer values. 
 
-![Competition Clustering](mdmsanta/ds3001_project/master/competition%20count.png)
-
 <img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/competition%20count.png">
 
 
@@ -47,34 +45,35 @@ The only true clusters, true being that they were not stripes as we will see lat
 ### 2. Vertical Striped Clusters
 As seen in these graphs, the clusters are vertical stripes of the data and tend to only be based on x-values.
 
-![Categories Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/categories.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/categories.png">
 
-![Votes Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/votes.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/votes.png">
 
 
 Dataset size presented a different type of challenge. The amount of outliers easily created uneven and odd looking clusters due to the skew in the data. The first image shows the orginal full set of points and the second is without the three prominate outliers. 
 
-![Dataset Size (1) Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size1.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/kmeans-size1.png">
 
-![Dataset Size (2) Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size2.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/kmeans-size2.png">
 
 ### 3. Horiztonal Striped Clusters
 Lastly, we saw horizontal stripped clusters. This group of clustering algorithms gave the most insight into the data. With these horizontal stripes we can categorize our point values into three main groups: low, medium, and high. On both clustering graphs there are the same cutoffs for each of these categories: 0-6,7-10,11-18.
 
-![Ratio Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/Kmeans-ratio.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/Kmeans-ratio.png">
 
 The following graph shows the dataset size again, but with a normalization to counter act the outliers, of which we still have some. 
 
-![Normalized Data Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size-N.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/kmeans-size-N.png">
 
 ## Decision Trees
 After making these different categories, we wanted to then determine the most important or most contributing attributes in determining the category a dataset will fall. To do this, we used a decision tree. (Note: in this tree we left out categories and description since when processed for the tree, it creates a massive amount values to add and unreasonable to add to the tree). The full tree is shown below. 
 
-![Full Tree](https://github.com/mdmsanta/ds3001_project/blob/master/TREEEEEEEE.PNG)
+
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/TREEEEEEEE.PNG">
 
 Since this a huge tree, lets restrict the tree to only three splits:
 
-![Final Tree](https://github.com/mdmsanta/ds3001_project/blob/master/finaltree.png)
+<img src= "https://raw.githubusercontent.com/mdmsanta/ds3001_project/master/finaltree.png">
 
 (Note: For file type, if CSV, file type = 0, if not file type > 0.5)
 
