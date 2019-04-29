@@ -35,20 +35,32 @@ Users can look into their datasets quality points here.
 ## Determining Clusters of Dataset Types
 After determining these quality points, we questioned what kind of clusters we could find between the dataset's attributes and their total number of points. Out of all of the clustering there were two main types of outcomes of clustering.
 
-### 1. Vertical Striped Cluster
+### 1. "True" Clusters
+The only true clusters, true being that they were not stripes as we will see later, was found in the categories clustering. The categories were preprossed to be integer values. 
+
+![Competition Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/competition%20count.png)
+
+### 2. Vertical Striped Cluster
+As seen in these graphs, the clusters are vertical stripes of the data and tend to only be based on x-values.
 
 ![Categories Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/categories.png)
 
 ![Votes Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/votes.png)
 
+
+Dataset size presented a different type of challenge. The amount of outliers easily created uneven and odd looking clusters due to the skew in the data. The first image shows the orginal full set of points and the second is without the three prominate outliers. 
+
 ![Dataset Size (1) Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size1.png)
 
 ![Dataset Size (2) Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size2.png)
 
-### 2. Horiztonal Striped Clusters
-ratio
-normalized dataset size
+### 3. Horiztonal Striped Clusters
+Lastly, we saw horizontal stripped clusters. This group of clustering algorithms gave the most insight into the data. With these horizontal stripes we can categorize our point values into three main groups: low, medium, and high. On both clustering graphs there are the same cutoffs for each of these categories: 0-6,7-10,11-18.
 
+![Ratio Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/Kmeans-ratio.png)
+
+The following graph shows the dataset size again, but with a normalization to counter act the outliers, of which we still have some. 
+![Normalized Data Clustering](https://github.com/mdmsanta/ds3001_project/blob/master/kmeans-size-N.png)
 
 
 
